@@ -286,19 +286,19 @@ behaviors][swlaschin].
 For example, we rarely hard-code methods like this:
 
 ```scala
-def countToTen() = for (i <- 1 to 10) println(i)
+def countToTen() = (1 to 10).foreach(num => println("#" + num))
 ```
 
 We often create parameters to make methods more dynamic, like this:
 
 ```scala
-def countTo(n: Int) = for (i <- 1 to n) println(i)
+def countTo(n: Int) = (1 to n).foreach(num => println("#" + num))
 ```
 
 We should pass in the behaviors too:
 
 ```scala
-def countTo(n: Int, action: (Int) => _ ) = for (i <- 1 to n) action(i)
+def countTo(n: Int, fn: (Int) => _) = (1 to n).foreach(fn)
 ```
 
 Many languages have methods like this built in: just think of a `map` and
