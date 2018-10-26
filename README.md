@@ -310,10 +310,10 @@ Being [DRY][dry] appropriately condenses code, promotes modularity, and
 simplifies future updates (while decreasing chances for bugs caused by updating
 logic in one place and missing it in another).
 
-If the logic is needed more than once in a single file, create a method *in that
-file* which can be executed throughout your logic. If the same logic is used
-across files or is overly complex (defined as a series of related methods), move
-the logic into its own file/class/module.
+For example, if logic is needed more than once in a single file, create a method
+*in that file* so that it can be executed repeatedly. If logic is needed across
+multiple files or is complex (defined as a series of related methods), move it
+into its own file/class/module.
 
 ## Document Your Code
 
