@@ -39,6 +39,7 @@ improves each developer and the team as a whole.
     - [Decrease Method Arguments](#decrease-method-arugments)
     - [Avoid Code Smells](#avoid-code-smells)
     - [Remember Conway's Law](#remember-conways-law)
+- [Continue Learning](#continue-learning)
 - [Finally](#finally)
 
 ***
@@ -725,6 +726,13 @@ aware of your teams structure as you work on your project.
 "Organizations which design systems are constrained to produce designs which are
 copies of the communication structures of these organizations."
 
+## Continue Learning
+
+Be open to gaining knowledge from languages that you may not be well versed in.
+For example, if you're a [JavaScript developer][js-fp] who wants to learn more
+about Functional Programming, don't be intimidated to read up on how
+[Haskell solves problems][haskell].
+
 ## Finally
 
 Care about the code you write... and choose a set of styles that you can stick
@@ -762,3 +770,5 @@ patterns and principles which help you, your team, and your projects flourish.
 [khenney]: https://youtu.be/APUCMSPiNh4?t=3683
 [aruhaak]: https://youtu.be/6f5dt923FmQ?t=459
 [vsubramaniam]: https://youtu.be/RRcnFd9TbjI?t=871
+[haskell]: http://learnyouahaskell.com
+[js-fp]: https://mostly-adequate.gitbooks.io/mostly-adequate-guide
