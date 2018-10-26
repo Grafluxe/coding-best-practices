@@ -63,7 +63,7 @@ As a simple example, here's how you can create variables in:
 
 ```scala
 val theGoodFoot: String = "right"
-private val playOnItNow = true
+private val isOnItNow = true
 ```
 
 The variable names are in camelCase and the optional semi-colons are excluded.
@@ -74,7 +74,7 @@ Notice that private members with obvious types don't need their
 
 ```js
 const theGoodFoot = "right";
-const playOnItNow = true;
+const isOnItNow = true;
 ```
 
 The variable names are in camelCase and the optional [semi-colons are
@@ -84,7 +84,7 @@ included][js-semicolon].
 
 ```php
 $the_good_foot = "right";
-$play_on_it_now = true;
+$is_on_it_now = true;
 ```
 
 The variable names are in snake_case.
