@@ -133,7 +133,7 @@ The above logic is good because:
   individual methods.
 - Each method is small and handles a single responsibility.
   - Having atomic methods promotes reusability.
-- As a bonus, I use [destructuring][destructuring] to remove the need for
+- As a bonus, I use [destructuring] to remove the need for
   prepending `user` to the relevant properties.
 
 #### Bad
@@ -381,14 +381,14 @@ A method/function is pure when:
   - Its output can replace the actual function call without changing behavior.
 
 Note that methods which interact with a data/time object or ones that print to
-the screen are considered impure. So are singleton classes, since they
+the screen are considered impure. So are singleton class variables, since they
 [act like global objects][jspahr].
 
 ## More on Function Purity
 
 Be idempotent whenever possible -- making the same method call multiple times
 should always produce the same result. Additionally, if your method has multiple
-paths of executions (if/switch statements), consider splitting them.
+paths of executions (if/switch statements), consider splitting your method.
 
 #### Good
 
