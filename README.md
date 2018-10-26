@@ -222,9 +222,10 @@ QA and test processes will be smoother if any bugs are found.
 
 Whenever possible, keep your code immutable. Doing so improves testability,
 readability, and forces you to really think about each line of code you write.
-It makes your code more resilient by preventing errors caused by cases where a
-variable changes unexpectedly in the middle of running a process. The more
-mutable code you have, the higher the risk of errors in your application.
+It makes your code more [predictable][aruhaak] by preventing errors caused by
+cases where a variable changes unexpectedly in the middle of running a process.
+The more mutable code you have, the higher the risk of errors in your
+application.
 
 Scala example:
 
@@ -362,9 +363,9 @@ Alvin Alexander lists [general benefits][fp-benefits] as:
 - Function signatures are more meaningful.
 - Parallel/concurrent programming is easier.
 
-If coming from an [OOP background][fp2], try to put your current knowledge in
-the back of your head as you familiarize yourself with Functional Programming.
-It [solves problems using a different set of rules][fp].
+If coming from an [imperative][vsubramaniam] or [OOP background][fp2], put your
+current knowledge in the back of your head as you familiarize yourself with
+Functional Programming. It [solves problems using a different set of rules][fp].
 
 ## Use Pure Functions Whenever Possible
 
@@ -759,3 +760,5 @@ patterns and principles which help you, your team, and your projects flourish.
 [curly-braces]: https://docs.scala-lang.org/style/control-structures.html#curly-braces
 [destructuring]: http://twitter.github.io/effectivescala/#Functional%20programming-Destructuring%20bindings
 [khenney]: https://youtu.be/APUCMSPiNh4?t=3683
+[aruhaak]: https://youtu.be/6f5dt923FmQ?t=459
+[vsubramaniam]: https://youtu.be/RRcnFd9TbjI?t=871
