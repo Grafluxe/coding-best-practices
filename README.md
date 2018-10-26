@@ -1,6 +1,6 @@
 # Coding Best Practices
 
-It's invaluable to have proved and agreed upon standards when working on a
+It's invaluable to have proven and agreed upon standards when working on a
 codebase. Whether in a team or working solo on a project, an applications
 architecture and the design patterns used to create it are key to a successful
 execution. This document was created to serve as a language agnostic set of
@@ -518,7 +518,7 @@ The above logic is bad because:
 
 ```scala
 class Team {
-  def gender(db: Database): String = if (db.age == 0) "female" else "male"
+  def gender(db: Database): String = if (db.genderId == 0) "female" else "male"
 }
 
 new Team().gender(database)
